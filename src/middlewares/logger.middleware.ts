@@ -30,3 +30,5 @@ export class LoggerMiddleware implements NestMiddleware {
     next(); // 미들웨어는 항상 next를 써줘야 작동
   }
 }
+
+// Nest는 controller 전에 항상 module을 만든다.
